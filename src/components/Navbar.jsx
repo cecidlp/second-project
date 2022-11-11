@@ -4,10 +4,10 @@ import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar() {
     return(
-        <div>
+        <div className="navbar">
             <nav>
-            <FontAwesomeIcon icon={faEarthAmericas} />
-            <h1>My travel Journal</h1>
+            <FontAwesomeIcon icon={faEarthAmericas} className="world-icon"/>
+            <h1>My travel journal</h1>
             </nav>
         </div>
         
